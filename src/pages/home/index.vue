@@ -6,9 +6,9 @@
         id="backgroundVideo"
         class="background-video"
         :src="backgroundVideoUrl"
-        autoplay
+        :autoplay="true"
         muted
-        loop
+        :loop="true"
         objectFit="cover"
         showCenterPlayBtn="false"
         controls="false"
